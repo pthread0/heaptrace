@@ -11,7 +11,7 @@
 
 #include "compiler.h"
 #include "heaptrace.h"
-
+#define DEPTH 8
 using stack_trace_t = std::array<void *, DEPTH>;
 using addr_t = void *;
 using time_point_t = std::chrono::steady_clock::time_point;
