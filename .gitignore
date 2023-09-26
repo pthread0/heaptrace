@@ -1,4 +1,3 @@
-heaptrace
 *.o
 *.so
 *.out
